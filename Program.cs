@@ -19,7 +19,7 @@ namespace MergeSort
             return Merge(left, right);
         }
 
- public int[] Merge(int[] left, int[] right)
+        public int[] Merge(int[] left, int[] right)
         {
             int [] num = new int[left.Length + right.Length];
             int LeftPtr = 0, RightPtr = 0, numPtr = 0;
