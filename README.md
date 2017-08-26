@@ -1,5 +1,13 @@
 # MergeSort
 - Implementation of mergesort on an integer array in C#
-- Console application developed using Visual Studio Code and .Net Core SDK
-- At runtime, the code initialzes a 20 element integer array with random numbers between 10 and 1000
-- It then sorts the array using MergeSort and displays the result in console.
+## Prerequisites
+- Visual Studio Code
+- .Net Core SDK
+## Getting Started
+- Download and install VS code specific to your machine's OS from https://code.visualstudio.com
+- Download and install .Net Core SDK from https://www.microsoft.com/net/core#windowscmd
+- Import the Mergsort repository in your local folder
+- Open the command prompt and type the following command
+```
+  dotnet run
+```
