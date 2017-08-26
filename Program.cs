@@ -56,11 +56,11 @@ namespace MergeSort
             int[] randomNumbers = new int[20];
             Random r = new Random();
             for(int i=0; i < randomNumbers.Length; i++)
-                randomNumbers[i] = r.Next(10, 1000);    
-            int [] num2 = prg.MergeSort(randomNumbers);
-            foreach (int a in num2)
-                Console.Write(a + ", ");
+                randomNumbers[i] = r.Next(10, 1000);
+            Console.WriteLine("Unsorted array: {0}", string.Join(",", randomNumbers));        
 
+            int [] num2 = prg.MergeSort(randomNumbers);
+            Console.WriteLine("Sorted array: {0}", string.Join(",", num2));        
         }   
     }
 }
